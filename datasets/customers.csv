@@ -1,0 +1,11 @@
+Customer_ID,Name,Age,Gender,City,Account_Type,Balance,Status
+C001,Rahul Sharma,32,Male,Bangalore,Savings,85000,Active
+C002,Priya Nair,28,Female,Mumbai,Current,120000,Active
+C003,Amit Verma,45,Male,Delhi,Savings,45000,Inactive
+C004,Neha Gupta,35,Female,Hyderabad,Savings,98000,Active
+C005,Vikram Rao,50,Male,Chennai,Current,250000,Active
+C006,Anjali Singh,30,Female,Pune,Savings,67000,Inactive
+C007,Rohan Das,41,Male,Kolkata,Savings,155000,Active
+C008,Sneha Patel,26,Female,Ahmedabad,Current,76000,Active
+C009,Karan Mehta,39,Male,Jaipur,Savings,110000,Active
+C010,Divya Iyer,34,Female,Bangalore,Current,92000,Inactive
