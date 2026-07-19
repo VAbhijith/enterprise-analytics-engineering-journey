@@ -54,6 +54,26 @@ def main():
                 customer_with_highest_balance, 
                  )
     
+    logger.info("Type of customer:%s", type(customers))
+    logger.info("Type of customer[balance]: %s", type(customers["Balance"]))
+    print(f"Customer Shape:{customers.shape}")
+    logger.info("customers dtypes:\n%s ", customers.dtypes)
+    ## iloc(integer location) loc(lable based ndexing)
+    print("="*50)
+    print("iloc(integer location) loc(lable based ndexing)")
+    print("="*50)
+    print(customers)
+    print(customers.iloc[0])
+    print(customers.iloc[0,1])
+    print(customers.iloc[:3])
+    print(customers.iloc[-1])
+    print(customers.iloc[1:4, 0:3])
+    customers_copy = customers.copy()
+    customers_copy_indexed = customers_copy.set_index("Customer_ID")
+    print("="*50)
+    print("loc")
+    print("="*50)
+    print(f'{customers_copy_indexed.loc["C005"]}')
 
 if __name__=="__main__":
     main()        
